@@ -1,0 +1,16 @@
+block TrackingToolsFEVT = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#RECO content
+block TrackingToolsRECO = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#AOD content
+block TrackingToolsAOD = {
+  untracked vstring outputCommands = {
+  }		
+}	

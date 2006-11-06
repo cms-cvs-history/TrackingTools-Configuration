@@ -1,0 +1,6 @@
+include "TrackingTools/GsfTracking/data/GsfElectrons.cff" 
+
+#
+# sequence already there
+# sequence GsfGlobalElectronSequence = {CkfElectronCandidates,GsfElectrons}
+#
