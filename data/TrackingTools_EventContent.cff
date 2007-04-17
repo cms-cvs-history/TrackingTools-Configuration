@@ -16,7 +16,6 @@ block TrackingToolsRECO = {
 #AOD content
 block TrackingToolsAOD = {
   untracked vstring outputCommands = {
-	"keep *_CkfElectronCandidates_*_*",
 	"keep recoTracks_GsfElectrons_*_*"
   }		
 }	
