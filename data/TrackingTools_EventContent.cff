@@ -1,7 +1,7 @@
 block TrackingToolsFEVT = {
   untracked vstring outputCommands = {
 	"keep *_CkfElectronCandidates_*_*",
-	"keep *_GsfElectrons_*_*"
+	"keep *_GsfGlobalElectronTest_*_*"
   }		
 }	
 
@@ -9,13 +9,13 @@ block TrackingToolsFEVT = {
 block TrackingToolsRECO = {
   untracked vstring outputCommands = {
 	"keep *_CkfElectronCandidates_*_*",
-	"keep *_GsfElectrons_*_*"
+	"keep *_GsfGlobalElectronTest_*_*"
   }		
 }	
 
 #AOD content
 block TrackingToolsAOD = {
   untracked vstring outputCommands = {
-	"keep recoTracks_GsfElectrons_*_*"
+	"keep recoTracks_GsfGlobalElectronTest_*_*"
   }		
 }	
